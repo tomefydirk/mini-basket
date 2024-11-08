@@ -1,0 +1,311 @@
+body {
+     background-color: rgb(236, 134, 9);
+     font-family: sans-serif;
+     font-weight: 900;
+}
+
+h1 {
+     color: rgb(9, 75, 66);
+}
+
+h2 {
+     color: rgb(94, 46, 13)
+}
+
+.footer {
+     clear: both;
+     background-color: beige;
+}
+
+.footer p {
+     text-align: center;
+}
+
+.article p {
+     max-width: 70%;
+}
+
+/*image1*/
+.image1 {
+     float: left;
+}
+
+.image1 p {
+     text-align: center;
+     max-width: 70%;
+}
+
+/*article*/
+.article {
+     margin-left: 15%;
+     width: 60%;
+}
+
+/*header*/
+.header p {
+     max-width: 100%;
+}
+
+header img {
+     width: 400px;
+
+}
+
+.header {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+
+}
+
+.header .menu ul {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+}
+
+/*section*/
+.section {
+     float: right;
+     width: 20%;
+     margin-right: 7%;
+}
+
+.section p {
+     max-width: 70%;
+}
+
+.section p {
+     text-align: center;
+     max-width: 70%;
+}
+
+.section img {
+     max-width: 70%;
+}
+
+/*menu accueil*/
+.menu {
+     padding-right: 20%;
+}
+
+a {
+     transition: box-shadow 50ms ease-in-out, transform 50ms ease-in-out;
+}
+
+.menu ul ol a {
+     padding: 10px;
+     display: block;
+     border: 3px solid rgb(235, 255, 119);
+     background-color: rgb(215, 22, 76);
+     color: aliceblue;
+     border-radius: 12px;
+     text-decoration: none;
+     box-shadow: 0px 6px 0px rgb(235, 255, 119);
+}
+
+.menu ul ol a:focus {
+     box-shadow: none;
+     transform: translateY(6px);
+}
+
+.menu ul {
+     text-align: center;
+}
+
+
+/*section star*/
+.star1 {
+
+     max-width: 55%;
+     margin-right: 35%;
+     margin-left: 25%;
+
+}
+
+.kobe {
+     background-color: rgb(174, 192, 11);
+     border-radius: 20px;
+     float: right;
+     width: 55%;
+}
+
+.kobe p {
+     text-align: center;
+}
+
+.remark {
+     width: 40%;
+}
+
+.rem2 {
+     float: left;
+}
+
+
+.rem2 image {
+     border-radius: 20Px;
+}
+
+.article2 {
+     margin-left: 65%;
+     text-align: none;
+     width: 85%;
+}
+
+.quiz {
+     margin-left: 50%;
+     background-color: rgb(52, 82, 53);
+     border-radius: 20px;
+}
+
+.quiz i {
+     color: rgb(172, 81, 20);
+}
+
+.quiz p {
+     color: cadetblue;
+}
+
+.quiz h2 {
+     text-align: center;
+}
+
+.remark p {
+
+     max-width: 80%;
+     text-align: center;
+     margin-right: 40%;
+
+}
+
+.remark {
+     width: 75%;
+
+}
+
+
+.star2 {
+     max-width: 20%;
+     border-radius: 20px;
+     background-color: rgb(174, 192, 11);
+     float: left;
+
+}
+
+.star3 {
+
+     width: 30%;
+     float: right;
+}
+
+.ballon {
+     border-radius: 20px;
+     background-color: rgb(174, 192, 11);
+}
+
+.ballon img {
+     border-radius: 20px;
+     margin-left: 15%;
+}
+
+.fun {
+     border-radius: 20px;
+     background-color: rgb(174, 192, 11);
+}
+
+.star1 img {
+     border-radius: 12px;
+     margin-left: 15%;
+}
+
+mark {
+     text-decoration: none;
+     color: rgb(132, 11, 156);
+}
+
+.star1 p {
+     margin-left: 15%;
+     max-width: 40%;
+}
+
+
+.star3 p {
+     margin-left: 15%;
+     max-width: 70%;
+}
+
+.star3 img {
+     max-width: 70%;
+}
+
+.star2 p {
+     margin-left: 15%;
+     text-align: center;
+}
+
+.star2 img {
+     border-radius: 20px;
+     margin: 12%;
+}
+
+/*wallpapper*/
+.wallp {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: rgba(93, 22, 0, 0.436);
+
+}
+
+.wallp3 {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: rgba(0, 0, 0, 0.694);
+
+}
+
+
+/*section lien*/
+.link {
+     width: 13%;
+     margin: auto;
+     clear: both;
+
+}
+
+.link a {
+     text-align: center;
+}
+
+.link a:focus {
+     box-shadow: none;
+     transform: translateY(6px);
+}
+
+.link a {
+     /* display: block 2px; */
+     padding: 10px;
+     /* border: 2px; */
+     display: block;
+     border: 3px solid rgb(235, 255, 119);
+     background-color: rgb(215, 22, 76);
+     color: aliceblue;
+     border-radius: 12px;
+     text-decoration: none;
+     box-shadow: 0px 6px 0px rgb(235, 255, 119);
+}
+
+/*section content*/
+.content {
+     background-color: aliceblue;
+     width: 85%;
+     margin: auto;
+     border-width: 2px;
+     border-color: rgb(154, 101, 31);
+     border-style: solid;
+     border-radius: 20px;
+}

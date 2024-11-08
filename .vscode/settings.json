@@ -1,0 +1,10 @@
+{
+    "[html]": {
+        "editor.suggest.insertMode": "replace",
+        "editor.formatOnSave": true
+    },
+    "[css]": {
+        "editor.suggest.insertMode": "replace",
+        "editor.formatOnSave": true
+    }
+}
